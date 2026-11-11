@@ -26,7 +26,7 @@
   </a>
 </p>
 
-- **Core Engine** : Moteur événementiel multi-threadé haute performance en **Rust** (, , ) déployé sur conteneurs **Alpine Linux**.
+- **Core Engine** : Moteur événementiel multi-threadé haute performance en **Rust** (`tokio`, `axum`, `twilight`) déployé sur conteneurs **Alpine Linux**.
 - **Dashboard Réactif** : Interface d'administration moderne conçue avec **SvelteKit** & TypeScript, offrant une synchronisation d'état en temps réel.
 - **Sécurité & Modération** : Moteur anti-raid basé sur la vélocité, système de cas de modération, workflows no-code et purges programmées.
 - **Persistance & Observabilité** : Architecture de données **PostgreSQL** & cache **Redis**, instrumentée avec télémétrie **Prometheus** et métriques **Grafana**.
@@ -84,14 +84,14 @@
 ### Dépôts Open-Source & Outillage
 
 - **[cronos.build](https://github.com/cronos-neo/cronos.build)** : Portfolio d'ingénierie sous **Svelte 5** (runes, polices WOFF2 auto-hébergées, zéro latence CDN, assets WebP optimisés).
-- **[undertale-fr-patcher](https://github.com/cronos-neo/undertale-fr-patcher)** : Patcher autonome multiplateforme en **Rust** (, rendu CPU logiciel via , xdelta3, vérification d'intégrité SHA-256).
+- **[undertale-fr-patcher](https://github.com/cronos-neo/undertale-fr-patcher)** : Patcher autonome multiplateforme en **Rust** (`egui`, rendu CPU logiciel via `softbuffer`, xdelta3, vérification d'intégrité SHA-256).
 - **[undertale-fr](https://github.com/cronos-neo/undertale-fr)** : Portail web officiel et vitrine communautaire des traductions françaises d'Undertale Yellow et Red & Yellow.
 
 ---
 
 ### Stack Technique & Ingénierie
 
-- **Systèmes & Backend** : Rust (, , ), Node.js, REST APIs, WebSockets
+- **Systèmes & Backend** : Rust (`tokio`, `axum`, `twilight`), Node.js, REST APIs, WebSockets
 - **Frontend & Interfaces** : Svelte 5, SvelteKit, TypeScript, HTML5 / CSS3 moderne, TailwindCSS
 - **Données & Cache** : PostgreSQL, Redis, SQLite
 - **Infrastructure & Systèmes** : Linux (Debian, Ubuntu, Alpine), Docker, Git, Cloudflare, Prometheus, Grafana
