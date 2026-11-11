@@ -16,7 +16,7 @@
 
 ---
 
-### ✦ Flagship Project — [Zenith](https://zenithbot.app)
+### Flagship Project — [Zenith](https://zenithbot.app)
 
 > Solution complète d'administration, de sécurité et d'automatisation pour les communautés Discord.
 
@@ -26,36 +26,36 @@
   </a>
 </p>
 
-- **Core Engine** : Moteur événementiel multi-threadé haute performance en **Rust** (`tokio`, `axum`, `twilight`) déployé sur conteneurs **Alpine Linux**.
+- **Core Engine** : Moteur événementiel multi-threadé haute performance en **Rust** (, , ) déployé sur conteneurs **Alpine Linux**.
 - **Dashboard Réactif** : Interface d'administration moderne conçue avec **SvelteKit** & TypeScript, offrant une synchronisation d'état en temps réel.
 - **Sécurité & Modération** : Moteur anti-raid basé sur la vélocité, système de cas de modération, workflows no-code et purges programmées.
 - **Persistance & Observabilité** : Architecture de données **PostgreSQL** & cache **Redis**, instrumentée avec télémétrie **Prometheus** et métriques **Grafana**.
 
 <p align="center">
-  <a href="https://zenithbot.app/"><strong>Explorer la plateforme Zenith →</strong></a>
+  <a href="https://zenithbot.app/"><strong>Explorer la plateforme Zenith -></strong></a>
 </p>
 
 ---
 
-### ✦ Projets & Réalisations
+### Projets & Réalisations
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4 align="center"><strong><a href="https://lamaisondeless.org">La Maison de l'ESS</a></strong></h4>
+      <h4 align="center"><strong><a href="https://github.com/cronos-neo/undertale-fr-patcher">Undertale FR Patcher</a></strong></h4>
       <p align="center">
-        <a href="https://lamaisondeless.org" target="_blank">
-          <img src="https://cronos.build/assets/projects/maison_ess_showcase.png" alt="La Maison de l'ESS" width="100%" />
+        <a href="https://github.com/cronos-neo/undertale-fr-patcher" target="_blank">
+          <img src="https://cronos.build/assets/projects/patcher_showcase.png" alt="Undertale FR Patcher" width="100%" />
         </a>
       </p>
-      <p>Portail numérique officiel &amp; plateforme de réservation pour un pôle territorial de coopération économique (PTCE).</p>
+      <p>Patcher autonome et multiplateforme en Rust pour l'application directe des patchs bicolores d'Undertale Yellow et Red &amp; Yellow.</p>
       <ul>
-        <li>Présentation et réservation de 6 modules d'espaces professionnels.</li>
-        <li>Moteur de calcul de devis et tarification dynamique en temps réel.</li>
-        <li><strong>Stack</strong> : Svelte, TypeScript, TailwindCSS, Node.js.</li>
+        <li>Rendu CPU logiciel pur avec <code>softbuffer</code> et <code>egui</code>.</li>
+        <li>Application de patchs différentiels xdelta3 et contrôle SHA-256.</li>
+        <li><strong>Stack</strong> : Rust, egui, xdelta3, softbuffer.</li>
       </ul>
       <p align="center">
-        <a href="https://lamaisondeless.org"><strong>Accéder au site →</strong></a>
+        <a href="https://github.com/cronos-neo/undertale-fr-patcher"><strong>Voir le patcher -></strong></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -73,7 +73,7 @@
         <li><strong>Stack</strong> : SvelteKit, TypeScript, SQLite (better-sqlite3).</li>
       </ul>
       <p align="center">
-        <a href="https://studio.zénith.fr"><strong>Voir l'outil Studio UTy →</strong></a>
+        <a href="https://studio.zénith.fr"><strong>Voir l'outil Studio UTy -></strong></a>
       </p>
     </td>
   </tr>
@@ -81,17 +81,17 @@
 
 ---
 
-### ✦ Dépôts Open-Source & Outillage
+### Dépôts Open-Source & Outillage
 
 - **[cronos.build](https://github.com/cronos-neo/cronos.build)** : Portfolio d'ingénierie sous **Svelte 5** (runes, polices WOFF2 auto-hébergées, zéro latence CDN, assets WebP optimisés).
-- **[undertale-fr-patcher](https://github.com/cronos-neo/undertale-fr-patcher)** : Patcher autonome multiplateforme en **Rust** (`egui`, rendu CPU logiciel via `softbuffer`, xdelta3, vérification d'intégrité SHA-256).
+- **[undertale-fr-patcher](https://github.com/cronos-neo/undertale-fr-patcher)** : Patcher autonome multiplateforme en **Rust** (, rendu CPU logiciel via , xdelta3, vérification d'intégrité SHA-256).
 - **[undertale-fr](https://github.com/cronos-neo/undertale-fr)** : Portail web officiel et vitrine communautaire des traductions françaises d'Undertale Yellow et Red & Yellow.
 
 ---
 
-### ✦ Stack Technique & Ingénierie
+### Stack Technique & Ingénierie
 
-- **Systèmes & Backend** : Rust (`tokio`, `axum`, `twilight`), Node.js, REST APIs, WebSockets
+- **Systèmes & Backend** : Rust (, , ), Node.js, REST APIs, WebSockets
 - **Frontend & Interfaces** : Svelte 5, SvelteKit, TypeScript, HTML5 / CSS3 moderne, TailwindCSS
 - **Données & Cache** : PostgreSQL, Redis, SQLite
 - **Infrastructure & Systèmes** : Linux (Debian, Ubuntu, Alpine), Docker, Git, Cloudflare, Prometheus, Grafana
